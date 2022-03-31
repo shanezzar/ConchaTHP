@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		514B072727F4B09D00EF9335 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B072627F4B09D00EF9335 /* Extension.swift */; };
+		515C350127F2141C00E9B907 /* ConchaTHPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C350027F2141C00E9B907 /* ConchaTHPApp.swift */; };
+		515C350527F2141C00E9B907 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515C350427F2141C00E9B907 /* Assets.xcassets */; };
+		515C350827F2141C00E9B907 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 515C350727F2141C00E9B907 /* Preview Assets.xcassets */; };
+		515C351227F2141C00E9B907 /* ConchaTHPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C351127F2141C00E9B907 /* ConchaTHPTests.swift */; };
+		515C351C27F2141C00E9B907 /* ConchaTHPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C351B27F2141C00E9B907 /* ConchaTHPUITests.swift */; };
+		515C351E27F2141C00E9B907 /* ConchaTHPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C351D27F2141C00E9B907 /* ConchaTHPUITestsLaunchTests.swift */; };
+		515C352B27F2148300E9B907 /* Concha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C352A27F2148300E9B907 /* Concha.swift */; };
+		515C352F27F24C4B00E9B907 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C352E27F24C4B00E9B907 /* ViewModel.swift */; };
+		515C353327F2555B00E9B907 /* StartNextURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515C353227F2555B00E9B907 /* StartNextURL.swift */; };
+		51DE0A8227F5828F006965BF /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DE0A8127F5828F006965BF /* ResultView.swift */; };
+		51DE0A8727F58468006965BF /* SofiaProSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DE0A8427F58468006965BF /* SofiaProSemiBold.ttf */; };
+		51DE0A8927F58468006965BF /* SofiaProMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51DE0A8627F58468006965BF /* SofiaProMedium.ttf */; };
+		51DE0A8B27F5847F006965BF /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DE0A8A27F5847F006965BF /* CustomFont.swift */; };
+		51DE0A8E27F5AD68006965BF /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DE0A8D27F5AD68006965BF /* TestView.swift */; };
+		51DE0A9027F5BA21006965BF /* MyProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DE0A8F27F5BA21006965BF /* MyProgressView.swift */; };
+		51F3C03327F259F800390D28 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F3C03227F259F800390D28 /* SliderView.swift */; };
+		51F3C03527F25C0C00390D28 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F3C03427F25C0C00390D28 /* WelcomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		515C350E27F2141C00E9B907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515C34F527F2141C00E9B907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515C34FC27F2141C00E9B907;
+			remoteInfo = ConchaTHP;
+		};
+		515C351827F2141C00E9B907 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 515C34F527F2141C00E9B907 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 515C34FC27F2141C00E9B907;
+			remoteInfo = ConchaTHP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		514B072627F4B09D00EF9335 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		515C34FD27F2141C00E9B907 /* ConchaTHP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConchaTHP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		515C350027F2141C00E9B907 /* ConchaTHPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaTHPApp.swift; sourceTree = "<group>"; };
+		515C350427F2141C00E9B907 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		515C350727F2141C00E9B907 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		515C350D27F2141C00E9B907 /* ConchaTHPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConchaTHPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515C351127F2141C00E9B907 /* ConchaTHPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaTHPTests.swift; sourceTree = "<group>"; };
+		515C351727F2141C00E9B907 /* ConchaTHPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConchaTHPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		515C351B27F2141C00E9B907 /* ConchaTHPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaTHPUITests.swift; sourceTree = "<group>"; };
+		515C351D27F2141C00E9B907 /* ConchaTHPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConchaTHPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		515C352A27F2148300E9B907 /* Concha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concha.swift; sourceTree = "<group>"; };
+		515C352E27F24C4B00E9B907 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		515C353227F2555B00E9B907 /* StartNextURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartNextURL.swift; sourceTree = "<group>"; };
+		51DE0A8127F5828F006965BF /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		51DE0A8427F58468006965BF /* SofiaProSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProSemiBold.ttf; sourceTree = "<group>"; };
+		51DE0A8627F58468006965BF /* SofiaProMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SofiaProMedium.ttf; sourceTree = "<group>"; };
+		51DE0A8A27F5847F006965BF /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
+		51DE0A8C27F5856A006965BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		51DE0A8D27F5AD68006965BF /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		51DE0A8F27F5BA21006965BF /* MyProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProgressView.swift; sourceTree = "<group>"; };
+		51F3C03227F259F800390D28 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		51F3C03427F25C0C00390D28 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		515C34FA27F2141C00E9B907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515C350A27F2141C00E9B907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515C351427F2141C00E9B907 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515C34F427F2141C00E9B907 = {
+			isa = PBXGroup;
+			children = (
+				515C34FF27F2141C00E9B907 /* ConchaTHP */,
+				515C351027F2141C00E9B907 /* ConchaTHPTests */,
+				515C351A27F2141C00E9B907 /* ConchaTHPUITests */,
+				515C34FE27F2141C00E9B907 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		515C34FE27F2141C00E9B907 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515C34FD27F2141C00E9B907 /* ConchaTHP.app */,
+				515C350D27F2141C00E9B907 /* ConchaTHPTests.xctest */,
+				515C351727F2141C00E9B907 /* ConchaTHPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		515C34FF27F2141C00E9B907 /* ConchaTHP */ = {
+			isa = PBXGroup;
+			children = (
+				51DE0A8C27F5856A006965BF /* Info.plist */,
+				515C350027F2141C00E9B907 /* ConchaTHPApp.swift */,
+				51DE0A8327F58452006965BF /* Fonts */,
+				51DE0A8027F4B49A006965BF /* Extension */,
+				51B0EBA427F3086000520B78 /* Structs */,
+				51B0EBA527F3086F00520B78 /* Enums */,
+				51B0EBA727F3088600520B78 /* Models */,
+				51B0EBA827F308B900520B78 /* Views */,
+				515C350427F2141C00E9B907 /* Assets.xcassets */,
+				515C350627F2141C00E9B907 /* Preview Content */,
+			);
+			path = ConchaTHP;
+			sourceTree = "<group>";
+		};
+		515C350627F2141C00E9B907 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				515C350727F2141C00E9B907 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		515C351027F2141C00E9B907 /* ConchaTHPTests */ = {
+			isa = PBXGroup;
+			children = (
+				515C351127F2141C00E9B907 /* ConchaTHPTests.swift */,
+			);
+			path = ConchaTHPTests;
+			sourceTree = "<group>";
+		};
+		515C351A27F2141C00E9B907 /* ConchaTHPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				515C351B27F2141C00E9B907 /* ConchaTHPUITests.swift */,
+				515C351D27F2141C00E9B907 /* ConchaTHPUITestsLaunchTests.swift */,
+			);
+			path = ConchaTHPUITests;
+			sourceTree = "<group>";
+		};
+		51B0EBA427F3086000520B78 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				515C352A27F2148300E9B907 /* Concha.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		51B0EBA527F3086F00520B78 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				515C353227F2555B00E9B907 /* StartNextURL.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		51B0EBA727F3088600520B78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				515C352E27F24C4B00E9B907 /* ViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		51B0EBA827F308B900520B78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51DE0A9127F5CCCE006965BF /* Custom */,
+				51F3C03427F25C0C00390D28 /* WelcomeView.swift */,
+				51DE0A8D27F5AD68006965BF /* TestView.swift */,
+				51DE0A8127F5828F006965BF /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		51DE0A8027F4B49A006965BF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				514B072627F4B09D00EF9335 /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		51DE0A8327F58452006965BF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				51DE0A8A27F5847F006965BF /* CustomFont.swift */,
+				51DE0A8627F58468006965BF /* SofiaProMedium.ttf */,
+				51DE0A8427F58468006965BF /* SofiaProSemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		51DE0A9127F5CCCE006965BF /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				51DE0A8F27F5BA21006965BF /* MyProgressView.swift */,
+				51F3C03227F259F800390D28 /* SliderView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		515C34FC27F2141C00E9B907 /* ConchaTHP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515C352127F2141C00E9B907 /* Build configuration list for PBXNativeTarget "ConchaTHP" */;
+			buildPhases = (
+				515C34F927F2141C00E9B907 /* Sources */,
+				515C34FA27F2141C00E9B907 /* Frameworks */,
+				515C34FB27F2141C00E9B907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConchaTHP;
+			productName = ConchaTHP;
+			productReference = 515C34FD27F2141C00E9B907 /* ConchaTHP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		515C350C27F2141C00E9B907 /* ConchaTHPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515C352427F2141C00E9B907 /* Build configuration list for PBXNativeTarget "ConchaTHPTests" */;
+			buildPhases = (
+				515C350927F2141C00E9B907 /* Sources */,
+				515C350A27F2141C00E9B907 /* Frameworks */,
+				515C350B27F2141C00E9B907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515C350F27F2141C00E9B907 /* PBXTargetDependency */,
+			);
+			name = ConchaTHPTests;
+			productName = ConchaTHPTests;
+			productReference = 515C350D27F2141C00E9B907 /* ConchaTHPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		515C351627F2141C00E9B907 /* ConchaTHPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 515C352727F2141C00E9B907 /* Build configuration list for PBXNativeTarget "ConchaTHPUITests" */;
+			buildPhases = (
+				515C351327F2141C00E9B907 /* Sources */,
+				515C351427F2141C00E9B907 /* Frameworks */,
+				515C351527F2141C00E9B907 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				515C351927F2141C00E9B907 /* PBXTargetDependency */,
+			);
+			name = ConchaTHPUITests;
+			productName = ConchaTHPUITests;
+			productReference = 515C351727F2141C00E9B907 /* ConchaTHPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		515C34F527F2141C00E9B907 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					515C34FC27F2141C00E9B907 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					515C350C27F2141C00E9B907 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 515C34FC27F2141C00E9B907;
+					};
+					515C351627F2141C00E9B907 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 515C34FC27F2141C00E9B907;
+					};
+				};
+			};
+			buildConfigurationList = 515C34F827F2141C00E9B907 /* Build configuration list for PBXProject "ConchaTHP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 515C34F427F2141C00E9B907;
+			productRefGroup = 515C34FE27F2141C00E9B907 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				515C34FC27F2141C00E9B907 /* ConchaTHP */,
+				515C350C27F2141C00E9B907 /* ConchaTHPTests */,
+				515C351627F2141C00E9B907 /* ConchaTHPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		515C34FB27F2141C00E9B907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DE0A8927F58468006965BF /* SofiaProMedium.ttf in Resources */,
+				515C350827F2141C00E9B907 /* Preview Assets.xcassets in Resources */,
+				51DE0A8727F58468006965BF /* SofiaProSemiBold.ttf in Resources */,
+				515C350527F2141C00E9B907 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515C350B27F2141C00E9B907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515C351527F2141C00E9B907 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		515C34F927F2141C00E9B907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51DE0A8B27F5847F006965BF /* CustomFont.swift in Sources */,
+				515C352F27F24C4B00E9B907 /* ViewModel.swift in Sources */,
+				515C350127F2141C00E9B907 /* ConchaTHPApp.swift in Sources */,
+				51F3C03527F25C0C00390D28 /* WelcomeView.swift in Sources */,
+				515C352B27F2148300E9B907 /* Concha.swift in Sources */,
+				515C353327F2555B00E9B907 /* StartNextURL.swift in Sources */,
+				51DE0A8E27F5AD68006965BF /* TestView.swift in Sources */,
+				51DE0A8227F5828F006965BF /* ResultView.swift in Sources */,
+				51DE0A9027F5BA21006965BF /* MyProgressView.swift in Sources */,
+				51F3C03327F259F800390D28 /* SliderView.swift in Sources */,
+				514B072727F4B09D00EF9335 /* Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515C350927F2141C00E9B907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515C351227F2141C00E9B907 /* ConchaTHPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		515C351327F2141C00E9B907 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				515C351C27F2141C00E9B907 /* ConchaTHPUITests.swift in Sources */,
+				515C351E27F2141C00E9B907 /* ConchaTHPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		515C350F27F2141C00E9B907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515C34FC27F2141C00E9B907 /* ConchaTHP */;
+			targetProxy = 515C350E27F2141C00E9B907 /* PBXContainerItemProxy */;
+		};
+		515C351927F2141C00E9B907 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 515C34FC27F2141C00E9B907 /* ConchaTHP */;
+			targetProxy = 515C351827F2141C00E9B907 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		515C351F27F2141C00E9B907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		515C352027F2141C00E9B907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		515C352227F2141C00E9B907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConchaTHP/Preview Content\"";
+				DEVELOPMENT_TEAM = R6Z6GSRQNX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConchaTHP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conchalabs.ConchaTHP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		515C352327F2141C00E9B907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConchaTHP/Preview Content\"";
+				DEVELOPMENT_TEAM = R6Z6GSRQNX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConchaTHP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conchalabs.ConchaTHP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		515C352527F2141C00E9B907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6Z6GSRQNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conchalabs.ConchaTHPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConchaTHP.app/ConchaTHP";
+			};
+			name = Debug;
+		};
+		515C352627F2141C00E9B907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6Z6GSRQNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conchalabs.ConchaTHPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConchaTHP.app/ConchaTHP";
+			};
+			name = Release;
+		};
+		515C352827F2141C00E9B907 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6Z6GSRQNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conchalabs.ConchaTHPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConchaTHP;
+			};
+			name = Debug;
+		};
+		515C352927F2141C00E9B907 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6Z6GSRQNX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.conchalabs.ConchaTHPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConchaTHP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		515C34F827F2141C00E9B907 /* Build configuration list for PBXProject "ConchaTHP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515C351F27F2141C00E9B907 /* Debug */,
+				515C352027F2141C00E9B907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515C352127F2141C00E9B907 /* Build configuration list for PBXNativeTarget "ConchaTHP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515C352227F2141C00E9B907 /* Debug */,
+				515C352327F2141C00E9B907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515C352427F2141C00E9B907 /* Build configuration list for PBXNativeTarget "ConchaTHPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515C352527F2141C00E9B907 /* Debug */,
+				515C352627F2141C00E9B907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		515C352727F2141C00E9B907 /* Build configuration list for PBXNativeTarget "ConchaTHPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				515C352827F2141C00E9B907 /* Debug */,
+				515C352927F2141C00E9B907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 515C34F527F2141C00E9B907 /* Project object */;
+}
